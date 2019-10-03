@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  main-api:
+    build: .
+    restart: always
+    ports:
+      - "9090:80"
